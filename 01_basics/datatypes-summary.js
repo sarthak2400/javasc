@@ -19,7 +19,7 @@ let userEmail;
 const id= Symbol('123')
 const anotherId= Symbol('123')
 
-    console.log(id===anotherId);        //output iska aya hai false
+    //console.log(id===anotherId);        //output iska aya hai false
 
     const bigNumber =362463246387657326n        //bigInt
 
@@ -32,13 +32,39 @@ const anotherId= Symbol('123')
         name:"sarthak",
         age:22,             //-------ye object hai
      }
-     console.log(myobj);
+     //console.log(myobj);
 
      const myFunction=function(){
-        console.log("hello sarthak")
+        //console.log("hello sarthak")
      }
-     console.log(myFunction)
+     // console.log(myFunction)
 
+     //+++++++++++++++++++++++++++++++++++++++++ MEMORY////////////***********8 *
+    //STACK (primitive) mermory use hoti hai
+    //HEAP  (non-PRIMITIVE)  Memory use hoti hai 
+// ex***************************
+    let  myYouTubename="sarthakbagga"
+
+    let anothername=myYouTubename
+    anothername = "sharma"
+
+    console.log(myYouTubename)   
+    console.log(anothername)
+// myYoutube ke andar abhi bhi purane wala name hai or anothername ke andar purani wali  
+
+//ex-----------2(heap)     value change ho gyi og wali bhi 
+
+let userOne={
+   email:"sarthakbagga24@gmail.com",
+   upi:"sharma@sbi",
+}
+     let userTwo = userOne
+     userTwo.email="sarthaksharma3278@gmail.com"     //user two ki email ko change kar do 3278 wali mail se 
+     
+     console.log(userOne.email);
+     console.log(userTwo.email);
+     
+     
 
      
 
