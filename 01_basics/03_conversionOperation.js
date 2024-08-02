@@ -23,5 +23,39 @@ let isLogged=1       //1---->True .....0------->False   ....isko empty ("")rakhe
 let someNumber =24
 
 //conversion 
-let stringNumber= String(someNumber)
-console.log(stringNumber)   
+//let stringNumber= String(someNumber)
+//console.log(stringNumber)   
+
+// *********************----------------------***************************************************
+
+let value=3
+let negValue= -value
+//console.log(negValue);
+
+//console.log(2**3);
+//console.log(2*2);
+//console.log(2/3);
+//console.log(2%3);    //remainder
+
+let str1="hello"
+let str2=" sarthak"
+
+let str3= str1+str2
+console.log(str1+str2);
+
+
+
+//complex---------------
+
+ // console.log("1" + 2)
+ // console.log(1+ "2")
+ // console.log("1" +2+ 2)
+ // console.log(1+  2+  "2");
+
+ let gameCounter=100
+ gameCounter++;              //pre-fix and post-fix (++gameCounter)
+ //   console.log(gameCounter);
+ 
+ 
+ 
+ 
