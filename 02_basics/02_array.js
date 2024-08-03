@@ -1,7 +1,7 @@
 const marvel_heroes =["thor","Ironman", "spiderman"]
 const dc_heroes =["supeman", "flash", "batman"]
 
-marvel_heroes.push(dc_heroes)  
+marvel_heroes.push(dc_heroes)        //MERGE TWO ARRAY
 //console.log(marvel_heroes)
                     // access elements
 //console.log(marvel_heroes[3][1])
