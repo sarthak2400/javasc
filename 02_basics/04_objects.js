@@ -42,17 +42,31 @@ const obj2={
 
 //2 way to merge 
 const obj3 ={...obj1,...obj2}
-console.log(obj3)
+// console.log(obj3)
 
 const users={
     id:1,
     email:"google@"
 }
  //users[1].email
- console.log(tinderUser);
+ // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));     //sare keys ki value de do tinderuser ki 
+// console.log(Object.keys(tinderUser));     //sare keys ki value de do tinderuser ki 
 
 //***IMP jo result ayega vo array ki formate me ayega to hmm uspe loop lga sakte hai  */
+
+//DESTRUCTURING 
+
+const course ={
+    courseName:"jshindi",
+    coursePrice:"2000",
+    courseIntructor:"sarthak"
+}
+//value ko print karvane ka dusra tarika 
+const {courseIntructor}= course
+console.log(courseIntructor)
+
+
+
 
 
