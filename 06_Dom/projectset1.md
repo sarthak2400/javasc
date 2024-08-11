@@ -28,5 +28,5 @@ if(e.target.id=='blue'){
 
   })
 })
-
+     *********************** click on edit in space **********
 
