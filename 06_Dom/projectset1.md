@@ -27,8 +27,6 @@ if(e.target.id=='blue'){
 }
 
   })
-
-
 })
 
 
